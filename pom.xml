@@ -25,9 +25,18 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>${jupiter.version}</version>
-      <scope>test</scope>
+
     </dependency>
-      <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-params</artifactId>
